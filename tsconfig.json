@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "target": "ES5",
+        "outFile": "./dist/bundle.js",
+        "pretty": true
+    },
+    "exclude": [
+      "node_modules"
+    ]
+}

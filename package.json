@@ -1,0 +1,23 @@
+{
+  "name": "typescript-todo",
+  "version": "0.0.0",
+  "description": "A Todo application implemented by typescript.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "rm dist/bundle.js.map; rm dist/bundle.js; ./node_modules/.bin/tsc --project ./tsconfig.json",
+    "watch": "rm dist/bundle.js.map; rm dist/bundle.js; ./node_modules/.bin/tsc --watch --project ./tsconfig.json"
+  },
+  "keywords": [
+    "Typescript",
+    "Todo",
+    "TodoApp"
+  ],
+  "author": "HyunSeob <sytte1017@gmail.com> (http://hyunseob.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "systemjs": "^0.19.38"
+  }
+}
