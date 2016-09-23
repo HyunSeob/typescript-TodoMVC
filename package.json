@@ -4,6 +4,7 @@
   "description": "A Todo application implemented by typescript.",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/.bin/http-server .",
     "compile": "rm dist/bundle.js.map; rm dist/bundle.js; ./node_modules/.bin/tsc --project ./tsconfig.json",
     "watch": "rm dist/bundle.js.map; rm dist/bundle.js; ./node_modules/.bin/tsc --watch --project ./tsconfig.json"
   },
@@ -18,6 +19,7 @@
     "typescript": "^1.8.10"
   },
   "dependencies": {
+    "http-server": "^0.9.0",
     "systemjs": "^0.19.38"
   }
 }
