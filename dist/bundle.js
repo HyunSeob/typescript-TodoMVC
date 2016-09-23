@@ -87,7 +87,7 @@ System.register("Store", ["Todo"], function(exports_3, context_3) {
                     this._subscribers = [];
                 }
                 Store.prototype._getStorage = function () {
-                    return this._todos = this._todos || (JSON.parse(this._localStorage.getItem('TodoList')) || []).map(function (item) { return new Todo_1.default(item); });
+                    return this._todos = this._todos || ((JSON.parse(this._localStorage.getItem('TodoList'))) || []).map(function (item) { return new Todo_1.default(item); });
                 };
                 Store.prototype._setStorage = function (todos) {
                     this._localStorage.setItem('TodoList', JSON.stringify(todos));

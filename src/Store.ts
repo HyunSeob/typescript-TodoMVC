@@ -12,9 +12,9 @@ export default class Store {
   }
 
   private _getStorage(): Array<Todo> {
-    return this._todos = this._todos || (JSON.parse(
+    return this._todos = this._todos || ((JSON.parse(
       this._localStorage.getItem('TodoList')
-    ) || []).map((item: Object) => new Todo(item));
+    )) || []).map((item: Object) => new Todo(item));
   }
 
   private _setStorage(todos: Array<Todo>): void {
