@@ -1,6 +1,6 @@
 {
   "name": "typescript-todo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Todo application implemented by typescript.",
   "main": "index.js",
   "scripts": {
